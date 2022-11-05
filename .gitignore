@@ -10,6 +10,10 @@
 
 # production
 /build
+*build/
+*.reach/
+reach
+.vscode/
 
 # misc
 .DS_Store

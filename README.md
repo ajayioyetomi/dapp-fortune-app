@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# THE FORTUNE GAME
+- About Project
+- Features
+- Acknowledgement
+- How to get started
+- Commands
+- Author 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About Project
+This project is a criteria for graduation in the Reach Ascent Lunar Program. I hope I have done enough to gradaute to the next level. 
 
-## Available Scripts
+### Morra Game 
+Morra is a hand game that dates back thousands of years to ancient Roman and Greek times. Each player simultaneously reveals their hand, extending any number of fingers, and calls out a number. Any player who successfully guesses the total number of fingers revealed by all players combined scores a point.
 
-In the project directory, you can run:
+#### Rules of the Game
+While there are many variations of morra, most forms can be played with a minimum of two players. In the most popular version, all players throw out a single hand, each showing zero to five fingers, and call out their guess at what the sum of all fingers shown will be. If one player guesses the sum, that player earns one point. The first player to reach three points wins the game.
 
-### `npm start`
+Some variants of morra involve money, with the winner earning an amount equal to the sum of fingers displayed.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+For more about [Morra Click Here](https://en.wikipedia.org/wiki/Morra_(game))
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+- React Interface (Functional Components)
+- Deployer and Attacher View and Functionality
+- Wager control and determination
+- Getting Hand and Num view and Functionality 
+- Loop and Draw 
+- Announcing Winner
 
-### `npm test`
+## Acknowledgements
+I want to acknowledge Nick Stanford, JP Miller, Emmanuel Agbavwe And the entire Reach team and its community. Thank you for the pointer and tutorials.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to get started
+To get start Developers trying run this this DApp should already have Reach, Docker and Node installed on their local machines.
+You can find the instruction to install Reach and every other tools to your machine by clicking [here](https://docs.reach.sh/quickstart/#p_44)
 
-### `npm run build`
+## Commands
+After getting your machine ready, the commands to run are:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+./reach compile: To know if the reach file will compile
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+./reach react: To start react development server and run the application
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## About Author
+I'm a passionate, experienced, and resourceful full-stack developer. I'm currently exploring blockchain and web3 with Reach and solidity.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
