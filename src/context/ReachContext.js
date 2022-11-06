@@ -30,7 +30,6 @@ const AppContextProvider = ({children}) =>{
     const [resolveFortune,setResolveFortune] = useState(null);
     const [resolveAcceptAmount,setResolveAcceptAmouont] = useState(null);
     const [resolveAcceptFortune,setResolveAcceptFortune] = useState(null);
-    
 
 
     const AppContextValue = {
@@ -41,7 +40,7 @@ const AppContextProvider = ({children}) =>{
     }
 
     useEffect(()=>{
-        setViews({view:'DeployerOrAttacher',wrapper:'AppWrapper'})
+        setViews({view:'Welcome',wrapper:'AppWrapper'})
     },[])
 
     return(
