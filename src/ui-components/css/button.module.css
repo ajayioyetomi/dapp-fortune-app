@@ -1,0 +1,23 @@
+:root{
+    --btn-background:rgb(5 0 20);
+    --btn-color:#fff;
+    --btn-background-2:rgb(120 255 120);
+    --btn-color-2:rgb(5 0 20);
+    --border-color:rgb(5 0 20);
+}
+
+.btn{
+    padding:12px 35px;
+    text-align: center;
+    background-color: var(--btn-background);
+    color:var(--btn-color);
+    border-radius: 5px;
+    border:1px solid var(--border-color);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--btn-background-2);
+    color:var(--btn-color-2);
+}

@@ -1,0 +1,53 @@
+:root{
+    --main-background: rgb(5 0 20);
+    --lemon-green: rgb(120 255 120);
+    --white-background:#fff;
+    --white-color:#fff;
+    --red-color:#f00;
+    --bold-color:rgb(5 0 20);
+}
+
+.app{
+    width:100%;
+    min-height: 100vh;
+    background-color: var(--main-background);
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.app > h1{
+    color:var(--lemon-green);
+}
+
+.app > div{
+    min-height: 200px;
+    width: max(50%,350px);
+    background-color:var(--white-background) ;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.welcomeDiv{
+    padding:10px;
+}
+
+.welcomeDiv > h2{
+    text-align: center;
+    color:var(--bold-color);
+}
+
+.welcomeDiv > p{
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.welcomeDiv > div{
+    text-align: center;
+    padding:20px 0;
+}
