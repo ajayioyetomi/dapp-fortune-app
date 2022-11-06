@@ -18,6 +18,6 @@
 }
 
 .btn:hover{
-    background-color: var(--btn-background-2);
-    color:var(--btn-color-2);
+    background-color: var(--btn-background-2) !important;
+    color:var(--btn-color-2) !important;
 }

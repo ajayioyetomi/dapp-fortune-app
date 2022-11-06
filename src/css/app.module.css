@@ -1,5 +1,5 @@
 :root{
-    --main-background: rgb(5 0 20);
+    --main-background: rgba(5, 0, 20, 0.55);
     --lemon-green: rgb(120 255 120);
     --white-background:#fff;
     --white-color:#fff;
@@ -10,19 +10,40 @@
 .app{
     width:100%;
     min-height: 100vh;
-    background-color: var(--main-background);
     display: flex;
     flex-direction: column;
     gap:20px;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
 }
+
+.app::after{
+    position: absolute;
+    content:'';
+    width:100%;
+    height:100%;
+    background-color: var(--main-background);
+    top:0;
+    left:0;
+}
+
+
+
+
 
 .app > h1{
     color:var(--lemon-green);
+    position: relative;
+    z-index: 2;
 }
 
 .app > div{
+    position: relative;
+    z-index: 2;
     min-height: 200px;
     width: max(50%,350px);
     background-color:var(--white-background) ;
@@ -30,6 +51,7 @@
     display: flex;
     flex-direction: column;
     gap:20px;
+    padding:20px;
 }
 
 .welcomeDiv{
@@ -50,4 +72,25 @@
 .welcomeDiv > div{
     text-align: center;
     padding:20px 0;
+}
+
+.deployerOrAttacher{
+    width:100%;
+
+}
+
+.deployerOrAttacher > h2{
+    text-align: center;
+}
+
+.deployerOrAttacher > p{
+    text-align: center;
+}
+
+.deployerOrAttacher > div{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap:50px;
+
 }

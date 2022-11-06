@@ -6,6 +6,7 @@ import AppContext from './context/ReachContext';
 import RenderViews,{renderDom}  from './App';
 import './index.css';
 import css from './css/app.module.css';
+import img from './images/back.jpg'
 
 const Views = {
   ...AppView,
@@ -16,7 +17,7 @@ const Views = {
 
 const App = () =>{
    return(
-    <div className={css.app}>
+    <div className={css.app} style={{backgroundImage:`url(${img})`}}>
       <h1>FORTUNE GAME</h1>
       <RenderViews {...Views} />
     </div>
