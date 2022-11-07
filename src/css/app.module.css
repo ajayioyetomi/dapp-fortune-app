@@ -104,4 +104,23 @@
 .deployDiv > p{
     width:100%;
     text-align: center;
+    margin:0;
 }
+
+.deployDiv > div{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+}
+
+.deployDiv > div > input{
+    max-width:300px;
+    border-radius: 5px;
+    padding:5px 10px;
+    border:1px solid grey;
+    outline:none;
+    font-size: 17px;
+}
+

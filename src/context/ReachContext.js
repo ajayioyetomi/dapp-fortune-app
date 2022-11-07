@@ -37,6 +37,8 @@ const AppContextProvider = ({children}) =>{
         setDefaults,
         views,
         setViews,
+        amount,
+        setAmount,
     }
 
     useEffect(()=>{
