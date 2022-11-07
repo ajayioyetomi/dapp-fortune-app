@@ -18,14 +18,14 @@ const deadline = {ETH:10,ALGO:100,CFX:1000}[reach.connector];
 const AppContextProvider = ({children}) =>{
     const [defaults,setDefaults] = useState({
         standardUnit,
-        defaultAmount:10,
+        defaultAmount:1,
     });
+    const [views,setViews] = useState({view:'Welcome',wrapper:'AppWrapper'});
     const [amount,setAmount] = useState(defaults.defaultAmount);
     const [player,setPlayer] = useState(null);
     const [account,setAccount] = useState(null);
     const [balance,setBalance] = useState(0);
     const [contract,setContract] = useState(null);
-    const [views,setViews] = useState({view:'Welcome',wrapper:'AppWrapper'});
     const [fortune,setFortune] = useState('');
     const [resolveFortune,setResolveFortune] = useState(null);
     const [resolveAcceptAmount,setResolveAcceptAmouont] = useState(null);
@@ -42,7 +42,7 @@ const AppContextProvider = ({children}) =>{
     }
 
     useEffect(()=>{
-        setViews({view:'Deploy',wrapper:'DeployerWrapper'})
+        setViews({view:'WaitingForAttacher',wrapper:'DeployerWrapper'})
     },[])
 
     return(
