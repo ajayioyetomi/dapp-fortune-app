@@ -40,7 +40,7 @@ const AppContextProvider = ({children}) =>{
     }
 
     useEffect(()=>{
-        setViews({view:'Welcome',wrapper:'AppWrapper'})
+        setViews({view:'Deploy',wrapper:'DeployerWrapper'})
     },[])
 
     return(

@@ -94,3 +94,14 @@
     gap:50px;
 
 }
+
+.deployDiv{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    width:100%;
+}
+.deployDiv > p{
+    width:100%;
+    text-align: center;
+}
